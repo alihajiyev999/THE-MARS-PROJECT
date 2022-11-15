@@ -102,6 +102,12 @@ html::-webkit-scrollbar-thumb {
     flex-direction: column;
 }
 
+.secondimage h1 {
+    color: white;
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
 .secondimage p:nth-last-child(1) {
     color: white;
     font-size: 25px;
@@ -119,4 +125,15 @@ html::-webkit-scrollbar-thumb {
     font-weight: normal;
     padding-bottom: 70px;
     text-shadow: 2px 1px black;
+}
+
+.thirdimage {
+    background-image: url("https://www.spacex.com/static/images/backgrounds/mars_why-mobile.webp");
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
